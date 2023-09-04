@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+body {
+    line-height: 1;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.6rem;
+    color: #000;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    text-align: center; 
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        padding: 5rem 0; 
+    }
+}
+
+.main > div {
+    width: 500px;
+    max-width: 80%;
+    margin: 0 auto; 
+}
+
+
+.MyHeader {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+.MyHeader:after {
+    content:'David Brave';
+}
+.MyHeader:hover:after {
+    /* content:'Call me Brave'; */
+    transition: transform 250ms;
+    transform: translateY(-10px);
+}
+
+.MyDescription {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 4rem; 
+}
+.MyDescription:after {
+    content:'I code, and play games';
+    transition: opacity 0.4s ease;
+    opacity: 1;
+}
+.MyDescription:hover:after{
+    content:'Oh! I also code games';
+    transition: opacity 0.4s ease;
+    opacity: 1;
+}
+
+.new {
+    opacity: 0;
+}
+
+.old, .new {
+    transition: opacity 0.5s linear;
+}
+
+.wrap:hover .old {
+    opacity: 0;
+}
+.wrap:hover .new {
+    opacity: 1;
+}
+
+
+.main p {
+    font-size: 1.3rem;
+    text-align: justify; 
+}
+
+.main a {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: rgb(175, 175, 175);
+    position: relative;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 0.3rem;
+}
+
+.main a:hover {
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-weight: 700; 
+}
+
+
+
