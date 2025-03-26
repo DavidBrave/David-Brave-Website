@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-family: Arial, sans-serif; /* Font style */
+    line-height: 1.6; /* Better readability */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Main Container Styles */
+.main-container {
+    min-height: 100vh;
+    max-width: 1000px; /* Max width for content */
+    width: 100%; /* Full width for responsiveness */
+    padding: 20px; /* Padding for top and bottom */
+    padding-left: 10px; /* Left padding */
+    padding-right: 10px; /* Right padding */
+    text-align: left; /* Align text to the left */
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Ensure headings are light */
+}
+
+p {
+    color: #e0e0e0; /* Softer color for paragraph text */
+    margin-bottom: 1em; /* Space between paragraphs */
+}
+
+/* Links */
+a {
+    color: #bb86fc; /* Light purple for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #1f1f1f; /* Dark button background */
+    color: #ffffff; /* Light button text */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; /* Ensure buttons are inline */
+}
+
+button:hover {
+    background-color: #333333; /* Darker background on hover */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Additional Element Styles */
+input, textarea {
+    background-color: #1f1f1f; /* Dark input fields */
+    color: #ffffff; /* Light text in input fields */
+    border: 1px solid #333333; /* Border for inputs */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Full width for inputs */
+    margin-bottom: 1em; /* Space between inputs */
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #bb86fc; /* Highlight border on focus */
+}
+
+
+
+.divider {
+    width: 100%; /* Full width for the divider line */
+    height: 2px; /* Height of the divider line */
+    background-color: #ccc; /* Color of the divider line */
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    margin: 20px 0; /* Space above and below the image */
+}
+
+.responsive-image {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.section-card-container {
+    background-color: #1f1f1f; /* Dark background for the section */
+    padding: 20px; /* Padding for content */
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px 0; /* Space between sections */
+}
+
+.section-counter {
+    color: #e0e0e0; /* Light color for counter text */
+    text-align: right; /* Align counter to the right */
+    font-weight: bold; /* Make counter text bold */
+    margin-top: 15px; /* Space above the counter */
+    font-size: 0.8em; /* Font size for the counter */
+}
+
